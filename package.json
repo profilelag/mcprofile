@@ -1,6 +1,6 @@
 {
   "name": "mcprofile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Connect to mcprofile.io",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/profilelag/mcprofile/issues"
   },
-  "homepage": "https://github.com/profilelag/mcprofile#readme"
+  "homepage": "https://github.com/profilelag/mcprofile#readme",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "types": "index.d.ts"
 }
