@@ -1,0 +1,22 @@
+{
+  "name": "mcprofile",
+  "version": "1.0.0",
+  "description": "Connect to mcprofile.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profilelag/mcprofile.git"
+  },
+  "keywords": [
+    "minecraft"
+  ],
+  "author": "Nicholas Keller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/profilelag/mcprofile/issues"
+  },
+  "homepage": "https://github.com/profilelag/mcprofile#readme"
+}
