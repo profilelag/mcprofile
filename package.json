@@ -1,27 +1,34 @@
 {
-  "name": "mcprofile",
-  "version": "1.0.1",
-  "description": "Connect to mcprofile.io",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/profilelag/mcprofile.git"
-  },
-  "keywords": [
-    "minecraft"
-  ],
-  "author": "Nicholas Keller",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/profilelag/mcprofile/issues"
-  },
-  "homepage": "https://github.com/profilelag/mcprofile#readme",
-  "type": "module",
-  "dependencies": {
-    "node-fetch": "^3.3.2"
-  },
-  "types": "index.d.ts"
+	"name": "mcprofile",
+	"version": "1.0.1",
+	"description": "Connect to mcprofile.io",
+	"main": "index.js",
+	"scripts": {
+		"ci": "biome ci",
+		"lint": "biome lint",
+		"test": "bun test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/profilelag/mcprofile.git"
+	},
+	"keywords": [
+		"minecraft",
+		"mcprofile"
+	],
+	"author": "Nicholas Keller",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/profilelag/mcprofile/issues"
+	},
+	"homepage": "https://github.com/profilelag/mcprofile#readme",
+	"type": "module",
+	"dependencies": {
+		"node-fetch": "^3.3.2"
+	},
+	"types": "index.d.ts",
+	"devDependencies": {
+		"@biomejs/biome": "2.3.11",
+		"bun": "^1.3.5"
+	}
 }
